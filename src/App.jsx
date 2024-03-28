@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import NavigateToTop from './components/NavigateTotop'
 import { Navbar } from '../src/components';
 import './App.css';
 
@@ -15,6 +16,7 @@ const App = () => (
     <Laurels />
     <Gallery />
     <FindUs />
+    <NavigateToTop/>
     <Footer />
   </div>
 );
